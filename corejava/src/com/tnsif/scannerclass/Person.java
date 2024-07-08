@@ -22,5 +22,10 @@ public int getTax() {
 public void setTax(int tax) {
 	this.tax = tax;
 }
+@Override
+public String toString() {
+	return "Person [name=" + name + ", income=" + income + ", tax=" + tax + "]";
+}
+
 
 }
